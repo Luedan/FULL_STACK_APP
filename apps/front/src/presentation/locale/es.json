@@ -1,0 +1,121 @@
+{
+  "translation": {
+    "errors": {
+      "required": "Este campo es requerido",
+      "email": "Por favor, introduce un email válido",
+      "minLength": "Este campo debe tener al menos {min} caracteres",
+      "maxLength": "Este campo debe tener como máximo {max} caracteres",
+      "password": "La contraseña debe tener al menos 8 caracteres, una letra mayúscula, una letra minúscula, un número y un carácter especial",
+      "passwordConfirmation": "Las contraseñas no coinciden",
+      "phone": "Por favor, introduce un número de teléfono válido",
+      "number": "Por favor, introduce un número válido",
+      "date": "Por favor, introduce una fecha válida",
+      "time": "Por favor, introduce una hora válida",
+      "url": "Por favor, introduce una URL válida",
+      "minValue": "El valor mínimo es {min}",
+      "maxValue": "El valor máximo es {max}",
+      "minDate": "La fecha mínima es {min}",
+      "maxDate": "La fecha máxima es {max}",
+      "invalid": "Por favor, introduce un valor válido",
+      "invalidArray": "Por favor, introduce un array válido",
+      "invalidObject": "Por favor, introduce un objeto válido",
+      "invalidDate": "Por favor, introduce una fecha válida",
+      "invalidEmail": "Por favor, introduce un email válido",
+      "invalidURL": "Por favor, introduce una URL válida",
+      "invalidPhone": "Por favor, introduce un número de teléfono válido",
+      "invalidNumber": "Por favor, introduce un número válido",
+      "invalidArrayLength": "El array debe tener {length} elementos",
+      "invalidMinArrayLength": "El array debe tener al menos {length} elementos",
+      "invalidMaxArrayLength": "El array debe tener como máximo {length} elementos",
+      "invalidMinLength": "Este campo debe tener al menos {min} caracteres",
+      "invalidMaxLength": "Este campo debe tener como máximo {max} caracteres",
+      "invalidMinValue": "El valor mínimo es {min}",
+      "invalidMaxValue": "El valor máximo es {max}",
+      "invalidMinDate": "La fecha mínima es {min}",
+      "invalidMaxDate": "La fecha máxima es {max}"
+    },
+    "lang": {
+      "es": "Español",
+      "en": "Inglés"
+    },
+    "words": {
+      "save": "Guardar",
+      "cancel": "Cancelar",
+      "close": "Cerrar",
+      "accept": "Aceptar",
+      "reject": "Rechazar",
+      "add": "Añadir",
+      "edit": "Editar",
+      "delete": "Eliminar",
+      "show": "Ver",
+      "search": "Buscar",
+      "reset": "Reiniciar",
+      "filter": "Filtrar",
+      "clear": "Limpiar",
+      "confirm": "Confirmar",
+      "back": "Volver",
+      "next": "Siguiente",
+      "prev": "Anterior",
+      "finish": "Finalizar",
+      "send": "Enviar",
+      "upload": "Subir",
+      "download": "Descargar",
+      "copy": "Copiar",
+      "cut": "Cortar",
+      "paste": "Pegar",
+      "refresh": "Refrescar",
+      "create": "Crear",
+      "view": "Ver",
+      "cancelSelection": "Cancelar selección",
+      "selectAll": "Seleccionar todo",
+      "unselectAll": "Deseleccionar todo",
+      "select": "Seleccionar",
+      "unselect": "Deseleccionar",
+      "expand": "Expandir",
+      "collapse": "Colapsar",
+      "more": "Más"
+    },
+    "tableActions": {
+      "edit": "Editar",
+      "delete": "Eliminar",
+      "show": "Ver"
+    },
+    "home": {
+      "title": "Inicio",
+      "zustand": "Uso de Zustand (Tienda global)",
+      "api": "Uso de una API (llamar a una API REST)",
+      "pagination": "Listo Paginada (llamar a una API REST - MODO SERVIDOR)",
+      "reactTable": "Uso de React Table"
+    },
+    "todo": {
+      "list": {
+        "id": "Identificador",
+        "title": "Título",
+        "completed": "Completado",
+        "actions": "Acciones"
+      },
+      "create": {
+        "titleModal": "Crear Tarea",
+        "form": {
+          "title": "Título"
+        }
+      },
+      "edit": {
+        "titleModal": "Editar Tarea",
+        "form": {
+          "title": "Título"
+        }
+      }
+    },
+    "pokemon": {
+      "form": {
+        "input": "Pokemon (nombre o id)"
+      },
+      "card": {
+        "notFound": "No se ha encontrado el Pokemon",
+        "id": "Identificador",
+        "name": "Nombre"
+      }
+    }
+  }
+}

@@ -1,0 +1,196 @@
+.
+├── apps
+│   └── front
+│       ├── index.html
+│       ├── package.json
+│       ├── postcss.config.js
+│       ├── public
+│       │   └── vite.svg
+│       ├── README.md
+│       ├── src
+│       │   ├── actions
+│       │   │   ├── pokemon
+│       │   │   │   ├── getOnePokemon.use-case.ts
+│       │   │   │   ├── getPokemonList.use-case.ts
+│       │   │   │   └── index.ts
+│       │   │   └── rickAndMorty
+│       │   │       └── getAllPaginateCharacters.use-case.ts
+│       │   ├── config
+│       │   │   ├── adapters
+│       │   │   │   └── http
+│       │   │   │       ├── axios.adapter.ts
+│       │   │   │       └── http.adapter.ts
+│       │   │   └── api
+│       │   │       ├── pokeApi.dataSource.ts
+│       │   │       └── rickAndMortyApi.datasource.ts
+│       │   ├── domain
+│       │   │   └── entities
+│       │   │       ├── pokemon
+│       │   │       │   └── pokemon.entity.ts
+│       │   │       ├── rickAndMorty
+│       │   │       │   └── rickAndMorty.entity.ts
+│       │   │       └── todo
+│       │   │           └── todo.entity.ts
+│       │   ├── infrastructure
+│       │   │   ├── interfaces
+│       │   │   │   ├── pokeApi
+│       │   │   │   │   └── pokeApiResponses.ts
+│       │   │   │   └── rickAndMortyApi
+│       │   │   │       └── rickAndMortyResponses.ts
+│       │   │   └── mappers
+│       │   │       ├── pokemon
+│       │   │       │   └── pokemon.mapper.ts
+│       │   │       └── rickAndMorty
+│       │   │           └── rickAndMorty.mapper.ts
+│       │   └── presentation
+│       │       ├── components
+│       │       │   └── ui
+│       │       │       └── loading
+│       │       │           ├── styled.css
+│       │       │           └── thinLineLoading.tsx
+│       │       ├── containers
+│       │       │   ├── home
+│       │       │   │   └── HomeContainer.tsx
+│       │       │   ├── pagination
+│       │       │   │   └── PaginationListContainer.tsx
+│       │       │   ├── pokemon
+│       │       │   │   └── PokemonContainer.tsx
+│       │       │   └── todo
+│       │       │       ├── AddTodoContainer.tsx
+│       │       │       ├── EditTodoContainer.tsx
+│       │       │       ├── TodoContainer.tsx
+│       │       │       └── types.d.ts
+│       │       ├── hooks
+│       │       │   ├── pokemon
+│       │       │   │   ├── useGetPokemonList.tsx
+│       │       │   │   └── usetGetPokemon.tsx
+│       │       │   └── rickAndMorty
+│       │       │       └── useGetRAMpaginatedList.tsx
+│       │       ├── locale
+│       │       │   ├── en.json
+│       │       │   ├── es.json
+│       │       │   └── i18n.ts
+│       │       ├── main.css
+│       │       ├── main.tsx
+│       │       ├── pages
+│       │       │   ├── home
+│       │       │   │   └── HomePage.tsx
+│       │       │   ├── PaginationList
+│       │       │   │   └── PaginationListPage.tsx
+│       │       │   ├── pokemon
+│       │       │   │   └── PokemonPage.tsx
+│       │       │   └── todo
+│       │       │       └── TodoPage.tsx
+│       │       ├── providers
+│       │       │   ├── layout
+│       │       │   │   ├── asideHeader.tsx
+│       │       │   │   ├── aside.tsx
+│       │       │   │   ├── changeLang.tsx
+│       │       │   │   ├── drawer.tsx
+│       │       │   │   ├── header.tsx
+│       │       │   │   ├── layout.tsx
+│       │       │   │   └── menu.tsx
+│       │       │   └── theme
+│       │       │       ├── index.ts
+│       │       │       ├── provider.tsx
+│       │       │       ├── store.tsx
+│       │       │       └── theme.tsx
+│       │       ├── router
+│       │       │   └── index.tsx
+│       │       ├── shared
+│       │       │   ├── hooks
+│       │       │   │   └── useModal.tsx
+│       │       │   └── utils
+│       │       │       ├── index.tsx
+│       │       │       └── types.d.ts
+│       │       └── store
+│       │           └── todo
+│       │               ├── todoStore.tsx
+│       │               └── types.d.ts
+│       ├── tailwind.config.js
+│       ├── tsconfig.json
+│       ├── tsconfig.node.json
+│       └── vite.config.ts
+├── devops
+│   ├── CD-STAGE.yml
+│   └── CI.yml
+├── docker-compose.yml
+├── Dockerfile
+├── doc.txt
+├── LICENSE
+├── nginx
+│   └── nginx.conf
+├── package.json
+├── packages
+│   └── ui
+│       ├── package.json
+│       ├── postcss.config.js
+│       ├── public
+│       │   └── vite.svg
+│       ├── README.md
+│       ├── src
+│       │   ├── components
+│       │   │   ├── atoms
+│       │   │   │   ├── box
+│       │   │   │   │   └── box.tsx
+│       │   │   │   ├── button
+│       │   │   │   │   └── button.tsx
+│       │   │   │   ├── card
+│       │   │   │   │   └── card.tsx
+│       │   │   │   ├── forms
+│       │   │   │   │   ├── autoCompleteMultiple.tsx
+│       │   │   │   │   ├── autoComplete.tsx
+│       │   │   │   │   ├── checkbox.tsx
+│       │   │   │   │   ├── datePicker.tsx
+│       │   │   │   │   ├── index.tsx
+│       │   │   │   │   ├── input.tsx
+│       │   │   │   │   ├── radioGroup.tsx
+│       │   │   │   │   ├── select.tsx
+│       │   │   │   │   ├── switch.tsx
+│       │   │   │   │   └── types.d.ts
+│       │   │   │   ├── grid
+│       │   │   │   │   └── grid.tsx
+│       │   │   │   ├── img
+│       │   │   │   │   └── img.tsx
+│       │   │   │   ├── modal
+│       │   │   │   │   └── modal.tsx
+│       │   │   │   ├── paper
+│       │   │   │   │   └── paper.tsx
+│       │   │   │   ├── table
+│       │   │   │   │   └── table.tsx
+│       │   │   │   ├── toast
+│       │   │   │   │   └── toast.tsx
+│       │   │   │   └── typography
+│       │   │   │       └── typography.tsx
+│       │   │   └── molecules
+│       │   │       ├── buttonAction
+│       │   │       │   ├── buttonAction.tsx
+│       │   │       │   └── type.d.ts
+│       │   │       ├── customCard
+│       │   │       │   └── customCard.tsx
+│       │   │       ├── customSwitch
+│       │   │       │   └── customSwitch.tsx
+│       │   │       ├── customToolbar
+│       │   │       │   ├── CustomQuickFilter.tsx
+│       │   │       │   ├── customServerToolbar.tsx
+│       │   │       │   └── customToolbar.tsx
+│       │   │       ├── modalCofirm
+│       │   │       │   ├── modalConfirm.tsx
+│       │   │       │   └── types.d.ts
+│       │   │       └── tablePro
+│       │   │           ├── tablePro.tsx
+│       │   │           └── tableServerPro.tsx
+│       │   ├── index.ts
+│       │   ├── utils
+│       │   │   └── index.ts
+│       │   └── vite-env.d.ts
+│       ├── tailwind.config.js
+│       ├── tsconfig.json
+│       ├── tsconfig.node.json
+│       └── vite.config.ts
+├── pnpm-lock.yaml
+├── pnpm-workspace.yaml
+├── README.md
+└── turbo.json
+
+77 directories, 116 files

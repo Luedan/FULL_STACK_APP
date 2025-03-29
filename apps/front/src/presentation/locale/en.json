@@ -1,0 +1,121 @@
+{
+  "translation": {
+    "errors": {
+      "required": "This field is required",
+      "email": "Please enter a valid email",
+      "minLength": "This field must have at least {min} characters",
+      "maxLength": "This field must have a maximum of {max} characters",
+      "password": "The password must have at least 8 characters, one uppercase letter, one lowercase letter, one number, and one special character",
+      "passwordConfirmation": "Passwords do not match",
+      "phone": "Please enter a valid phone number",
+      "number": "Please enter a valid number",
+      "date": "Please enter a valid date",
+      "time": "Please enter a valid time",
+      "url": "Please enter a valid URL",
+      "minValue": "The minimum value is {min}",
+      "maxValue": "The maximum value is {max}",
+      "minDate": "The minimum date is {min}",
+      "maxDate": "The maximum date is {max}",
+      "invalid": "Please enter a valid value",
+      "invalidArray": "Please enter a valid array",
+      "invalidObject": "Please enter a valid object",
+      "invalidDate": "Please enter a valid date",
+      "invalidEmail": "Please enter a valid email",
+      "invalidURL": "Please enter a valid URL",
+      "invalidPhone": "Please enter a valid phone number",
+      "invalidNumber": "Please enter a valid number",
+      "invalidArrayLength": "The array must have {length} elements",
+      "invalidMinArrayLength": "The array must have at least {length} elements",
+      "invalidMaxArrayLength": "The array must have a maximum of {length} elements",
+      "invalidMinLength": "This field must have at least {min} characters",
+      "invalidMaxLength": "This field must have a maximum of {max} characters",
+      "invalidMinValue": "The minimum value is {min}",
+      "invalidMaxValue": "The maximum value is {max}",
+      "invalidMinDate": "The minimum date is {min}",
+      "invalidMaxDate": "The maximum date is {max}"
+    },
+    "lang": {
+      "es": "Spanish",
+      "en": "English"
+    },
+    "words": {
+      "save": "Save",
+      "cancel": "Cancel",
+      "close": "Close",
+      "accept": "Accept",
+      "reject": "Reject",
+      "add": "Add",
+      "edit": "Edit",
+      "delete": "Delete",
+      "show": "Show",
+      "search": "Search",
+      "reset": "Reset",
+      "filter": "Filter",
+      "clear": "Clear",
+      "confirm": "Confirm",
+      "back": "Back",
+      "next": "Next",
+      "prev": "Previous",
+      "finish": "Finish",
+      "send": "Send",
+      "upload": "Upload",
+      "download": "Download",
+      "copy": "Copy",
+      "cut": "Cut",
+      "paste": "Paste",
+      "refresh": "Refresh",
+      "create": "Create",
+      "view": "View",
+      "cancelSelection": "Cancel selection",
+      "selectAll": "Select all",
+      "unselectAll": "Deselect all",
+      "select": "Select",
+      "unselect": "Deselect",
+      "expand": "Expand",
+      "collapse": "Collapse",
+      "more": "More"
+    },
+    "tableActions": {
+      "edit": "Edit",
+      "delete": "Delete",
+      "show": "Show"
+    },
+    "home": {
+      "title": "Home",
+      "zustand": "Using Zustand (Global Store)",
+      "api": "Using an API (Calling a REST API)",
+      "pagination": "Paginated List (Calling a REST API - SERVER MODE)",
+      "reactTable": "Using React Table"
+    },
+    "todo": {
+      "list": {
+        "id": "Identifier",
+        "title": "Title",
+        "completed": "Completed",
+        "actions": "Actions"
+      },
+      "create": {
+        "titleModal": "Create Task",
+        "form": {
+          "title": "Title"
+        }
+      },
+      "edit": {
+        "titleModal": "Edit Task",
+        "form": {
+          "title": "Title"
+        }
+      }
+    },
+    "pokemon": {
+      "form": {
+        "input": "Pokemon (name or id)"
+      },
+      "card": {
+        "notFound": "Pokemon not found",
+        "id": "Identifier",
+        "name": "Name"
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+services:
+  monorepo:
+    build:
+      context: .
+    ports:
+      - 3001:80
