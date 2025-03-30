@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "turbo dev",
+    "front:dev": "turbo front:dev --filter=front",
+    "api:dev": "turbo api:dev --filter=api",
     "build": "turbo build",
     "prod": "turbo preview",
     "test": "echo \"Error: no test specified\" && exit 1"
